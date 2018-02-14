@@ -91,8 +91,7 @@ def main(args, loglevel):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         description="Downloads fasta sequence of a genbank ID",
-        epilog="This is the epilog")
-    # TODO Specify your real parameters here.
+        epilog="version: 0.1")
     parser.add_argument(
         "genbank_id",
         help="genbank ID to download",
